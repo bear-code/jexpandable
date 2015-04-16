@@ -1,8 +1,10 @@
 # jexpandable
 ##usage
-``HTML
-<div data-object='expandable' data-text='{{ payment.notes }}' />
-``
+in HTML
+````
+<div data-object='expandable' data-text='{{ notes }}' />
+````
+
 ```
 $('[data-object="expandable"]').jexpandable();
 ```
