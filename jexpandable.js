@@ -6,7 +6,7 @@ jQuery.fn.extend({
       var
         _this = $(this),
         text = _this.data('text'),
-        do_show = false;
+        do_show = false,
         CHARS_TO_SHOW = 120;
 
       if (!text)
